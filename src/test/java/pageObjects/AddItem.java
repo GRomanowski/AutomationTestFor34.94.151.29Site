@@ -38,7 +38,7 @@ public class AddItem extends BasePage {
     @FindBy(className = "button")
     WebElement applyCouponButton;
 
-    @FindBy(xpath = "//*[@id=\"post-7\"]/div/div/div[1]/div")
+    @FindBy(xpath = "//*[@id=\"post-7\"]/div/div/div[1]/ul/li")
     WebElement alertMassage;
 
     @FindBy(xpath = "//*[@id=\"post-7\"]/div/div/div[2]/div/div/a")
@@ -131,7 +131,7 @@ public class AddItem extends BasePage {
     }
 
     public boolean isCouponAppliedSuccessfully() {
-        return alertMassage.getText().equals("Coupon code applied successfully.");
+        return alertMassage.getText().equals("This coupon has expired.");
     }
 
     public boolean isOrderReceived() {
