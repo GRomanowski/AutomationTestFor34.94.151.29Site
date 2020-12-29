@@ -7,9 +7,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 25 test of 25 worked 100% on 28.12.20
 
 1.Add Itesm Test	
-	
 	TC1.1
-	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Add Item to chart ( selected using xpath selector )
