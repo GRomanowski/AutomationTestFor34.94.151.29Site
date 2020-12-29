@@ -7,6 +7,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 25 test of 25 worked 100% on 28.12.20
 
 1.Add Itesm Test	
+	
 	TC1.1
 	
 		Test Steps:
@@ -16,6 +17,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		3. Check is selected Item added to chart.
 
 2. Apply Coupon Test
+	
 	TC2.1
 	
 		Test Steps:
@@ -27,6 +29,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		5. The alert message is shown: "This coupon has expired."
 
 3. Change My Billing Address Test
+	
 	TC3.1
 	
 		Test Steps:
@@ -76,6 +79,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		7. The alert message is shown: "Address changed successfully."
 
 4. Login Test
+	
 	TC4.1
 	
 		Test Steps:
@@ -126,6 +130,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		3. The alert message is shown: "Error: The password field is empty."
 
 5. Log Out Test
+	
 	TC5.1
 	
 		Test Steps:
@@ -136,6 +141,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		4. After log out, the log in button ist Displayed.
 
 6. Make Order Test
+	
 	TC6.1
 	
 		Test Steps:
@@ -163,6 +169,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 						"Billing Town / City is a required field."
 
 7. Navigate Test
+	
 	TC7.1
 	
 		Test Steps:
@@ -181,6 +188,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		4. Check if the proper page is displayed
 
 8. Register Test
+	
 	TC8.1
 	
 		Test Steps:
@@ -215,6 +223,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		4. The alert message is shown:"Error: Please provide a valid email address."
 
 9. Search Test
+	
 	TC9.1
 	
 		Test Steps:
