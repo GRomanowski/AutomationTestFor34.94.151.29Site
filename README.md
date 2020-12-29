@@ -17,6 +17,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 
 2. Apply Coupon Test
 	TC2.1
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Add Item to chart ( selected using xpath selector )
@@ -27,6 +28,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 
 3. Change My Billing Address Test
 	TC3.1
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Login using correct login and password
@@ -38,6 +40,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		7. The alert message is shown: "Address changed successfully."
 
 	TC3.2
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Login using correct login and password
@@ -49,6 +52,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		7. The alert message is shown: "First name is a required field."
 
 	TC3.3
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Login using correct login and password
@@ -60,6 +64,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		7. The alert message is shown: "Please enter a valid postcode / ZIP."
 
 	TC3.4
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Login using correct login and password
@@ -72,6 +77,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 
 4. Login Test
 	TC4.1
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Login using correct login and password
@@ -79,6 +85,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		3. After log in, the log out button ist Displayed.
 
 	TC4.2
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Login using incorrect login and correct password
@@ -86,6 +93,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		3. The alert message is shown: "Unknown username. Check again or try your email address."
 
 	TC4.3
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Login using correct login and incorrect password
@@ -94,6 +102,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
                 + user + " is incorrect. Lost your password?"
 
 	TC4.4
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Login using no login and correct password
@@ -101,6 +110,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		3. The alert message is shown: "Error: Username is required."
 
 	TC4.5
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Login using no login and no password
@@ -108,6 +118,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		3. The alert message is shown: "Error: Username is required."
 
 	TC4.6
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Login using correct login and no password
@@ -115,7 +126,8 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		3. The alert message is shown: "Error: The password field is empty."
 
 5. Log Out Test
-	TC5
+	TC5.1
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Login using correct login and password
@@ -125,6 +137,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 
 6. Make Order Test
 	TC6.1
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Add iteam to cart
@@ -136,6 +149,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		7. The alert message is shown: "Thank you. Your order has been received."
 
 	TC6.2
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Add iteam to cart
@@ -150,6 +164,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 
 7. Navigate Test
 	TC7.1
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Login using correct login and correct password
@@ -157,6 +172,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		Expected Result
 		4. Check if the proper page is displayed
 	TC7.2
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Login using correct login and correct password
@@ -166,6 +182,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 
 8. Register Test
 	TC8.1
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Go to My account 
@@ -173,6 +190,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		Expected Result
 		4. Check if the user is logged in
 	TC8.2
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Go to My account 
@@ -180,6 +198,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		Expected Result
 		4. The alert message is shown:"Error: Please enter an account password."
 	TC8.3
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Go to My account 
@@ -187,6 +206,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		Expected Result
 		4. The alert message is shown:"Error: Please enter a valid account username."
 	TC8.4
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Go to My account 
@@ -196,6 +216,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 
 9. Search Test
 	TC9.1
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Fill the search field: "gold"
@@ -203,6 +224,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		Expected Result
 		4. The top topic is: Search results: “gold”
 	TC9.2
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Fill the search field: ""
@@ -210,6 +232,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		Expected Result
 		4. The top topic is: Search results: “”
 	TC9.3
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Fill the search field: "silver"
@@ -217,6 +240,7 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 		Expected Result
 		4. The top topic is: Search results: “silver”
 	TC9.4
+	
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Fill the search field: "bars"
