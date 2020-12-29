@@ -6,6 +6,8 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 
 25 test of 25 worked 100% on 28.12.20
 
+Test Scenario
+
 1. Add Itesm Test	
 	
 	TC1.1
