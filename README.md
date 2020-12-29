@@ -8,8 +8,9 @@ Automation test cases was created for ChromeDriver v 84.0.4147.30 and GecoDriver
 
 1.Add Itesm Test	
 
-	TC1.1
+2. Apply Coupon Test
 	
+	TC1.1
 		Test Steps:
 		1. Go to HomePage http://34.94.151.29/
 		2. Add Item to chart ( selected using xpath selector )
